@@ -1,0 +1,53 @@
+
+@media screen and (max-width:480px){
+
+	#ws_masthd_wrap {
+		height: auto !important;
+		background-image: url(../images/mob_bgnd.jpg) !important;
+		background-position: center top !important;
+	}
+}
+
+
+#ws_sec1pg2_wrap {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: url(../images/sec1_subpg_bgnd.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+
+
+#ws_masthd_wrap {
+	width: 100%;
+	height: 530px;
+	background-image: url(../../View/Themed/Alpha/webroot/img/sec1_bgnd.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+
+#break {
+	background-color: #004c70;
+	background-image: url(../images/ltl_break_bgnd.jpg);
+	background-repeat: repeat-x;
+}
+
+#ltl_lcol_break li {
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 35px;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(../images/ltl_bllt_break.png);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-position: left 3px;
+}
+
+/*taken from bootstrap.css in wrapper at line 2636*/
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}

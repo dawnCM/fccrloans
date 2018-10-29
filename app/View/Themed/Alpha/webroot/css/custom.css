@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+body.modal-open .modal-body .panel-heading{cursor:hand;}
+body.modal-open .modal-header{background-image:linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);}
+body.modal-open .modal-title, .modal-header .close{color:#fff;}
+body.modal-open .footer{font-size:12px;}
+a {transition: color 0.2s ease-in-out; -webkit-transition: color 0.2s ease-in-out; -moz-transition: color 0.2s ease-in-out; -o-transition: color 0.2s ease-in-out; -ms-transition: color 0.2s ease-in-out;}
+#AgreeConsentCB{margin-left:-20px;}
